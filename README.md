@@ -13,3 +13,4 @@ TODO:<br>
 -- move footer<br>
 -- remove kittiff references<br>
 -- update to make it look snazzy<br>
+-- formatting on about page
