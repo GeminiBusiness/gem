@@ -210,6 +210,8 @@ background: #fff;
 	 list-style-type: none;
 	margin: 0px;
 	padding: 2px;
+	color: #06c; /* Change color to blue */
+	font-size: 9pt; /* Adjust font size */
 
 }
 
