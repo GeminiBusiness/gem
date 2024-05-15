@@ -14,3 +14,5 @@ TODO:<br>
 -- remove kittiff references<br>
 -- update to make it look snazzy<br>
 -- formatting on about page and linc page
+-- simplify header/footer code?
+-- use VS code or something and use Git for Windows to commit changes
