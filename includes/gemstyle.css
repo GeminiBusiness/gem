@@ -67,9 +67,20 @@ p{
 }
 
 /* For those little captions */
-#small-line {
-	font-size: 10px;
+#small-line1 p{
+	font-size: 8px;
 	color: #999;
+	text-align: right;
+}
+
+#small-line2 p{
+	font-size: 8px;
+	color: #999;
+	text-align: left;
+}
+
+#small-line2 a {
+	color: #06c; /* blue for the link */
 }
 
 #container {
