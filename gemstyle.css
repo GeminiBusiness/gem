@@ -256,7 +256,8 @@ padding-left: 14px;
 	height: auto;
 	}
 
-#footer{
+/* old footer formatting
+#footer {
 	position: relative;
 	float: left;
 	width: 540px;
@@ -267,6 +268,16 @@ padding-left: 14px;
 	text-align: center;
 	margin: 0px 0px 3px 0px;
 	font-size: 12px;
+}*/
+
+#footer {
+    position: absolute; /* Change to absolute positioning */
+    left: 50%; /* Move the left edge of the footer to the center of the page */
+    transform: translateX(-50%); /* Translate the footer back by half of its width to center it */
+    bottom: 0; /* Position it at the bottom of the page */
+    width: 540px; /* Adjust the width if needed */
+    margin-left: auto; /* Reset left margin */
+    margin-right: auto; /* Reset right margin */
 }
 
 #footer a{
