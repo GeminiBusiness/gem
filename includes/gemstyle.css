@@ -272,14 +272,18 @@ padding-left: 14px;
 
 /* tried to change the footer formatting */
 #footer {
-    position: absolute; /* Change to absolute positioning */
-    left: 50%; /* Move the left edge of the footer to the center of the page */
-    transform: translateX(-50%); /* Translate the footer back by half of its width to center it */
-    bottom: 0; /* Position it at the bottom of the page */
-    width: 540px; /* Adjust the width if needed */
-    margin-left: auto; /* Reset left margin */
-    margin-right: auto; /* Reset right margin */
+    position: fixed; /* Change to fixed positioning */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Occupy full width of the viewport */
+    background-color: #fff; /* Example background color */
+    color: #999; /* Example text color */
+    text-align: center; /* Center-align text */
+    font-size: 12px; /* Adjust font size */
+    padding: 10px; /* Add padding for spacing */
+	margin: 0px 0px 3px 0px; /* Copy from above */
 }
+
 
 #footer a{
 	color: #fff;
