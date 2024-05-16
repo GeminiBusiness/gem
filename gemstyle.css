@@ -66,6 +66,12 @@ p{
 	padding: 0 20px 0 0px;
 }
 
+/* For those little captions */
+#small-line {
+	font-size: 10px;
+	color: #999;
+}
+
 #container {
 	position: relative;
 	margin-left: auto;
