@@ -2,12 +2,15 @@
 <!--
 
 body{
+	
 	font-size: 10pt;
 	color: #999;
 	text-align: center;
 	margin: 0px;
-	background: #f2f2f2;	
+	background: #F2F2F2;	
+
 	padding: 0px;
+
 }
 
 img {
@@ -19,7 +22,6 @@ p {
 	font-family: tahoma,geneva, sans-serif;
 	padding: 0px 0px 0px 0px;
 	font-size: 10pt;
-	margin: 0px;
 }
 
 h1{
@@ -27,7 +29,7 @@ h1{
 	font-size: 18px;
 	line-height: 18px;
 	font-weight: bold;
-	margin: 0px 5p 0px 5px;
+	margin: 0px 5p 3px 5px;
 	font-variant: small-caps;
 }
 
@@ -56,7 +58,7 @@ a{
 }
 
 a:hover{
-	color: #09f;
+	color: #fff;
 }
 
 
@@ -93,7 +95,7 @@ p{
 	height: auto;
 	text-align: left;
 	padding: 0px;
-	background: #fff;	
+background: #fff;	
 }
 
 #sidebar{
@@ -103,12 +105,12 @@ p{
 	width: 236px;
 	height: 377px;
 	padding: 0px;
-	margin: 3px;
+	margin: 4px;
 	font-size: 11px;
 	border: 0px solid #333;
 	font-family: verdana, verdana, genevea, sans-serif;
 	background:  url('images/sidebg.gif') no-repeat;
-	
+
 	}
 	
 #sidebar p{
@@ -125,10 +127,11 @@ p{
 	
 	width: 220px;
 	height: auto;
-	padding: 0px;
+	padding: 3px;
+	padding-bottom: 0px;
 	font-size: 11px;
 	text-align: left;
-
+	
 }
 
 #menu ul{
@@ -141,22 +144,20 @@ p{
 }
 
 
-#menu ul.sub {
-	width: 20px;
-	margin: 0px 0px 0px 20px;
-	padding: 0px;
+#menu ul.sub{
+	width: 124px;
+	margin: 0px;
+	padding: 0px 3px 0px 30px;
 	font-family: verdana, verdana, genevea, sans-serif;
 	display: block;
 	list-style: none;
 }
 
-
-
 #menu a {
 	display: block;
 	color: #06c;
 	height: 18px;
-	width: 160px;
+	width: 190px;
 	padding-left: 10px;	
 	border-bottom: 0px solid #E7DBBD;
 	line-height: 11px;
@@ -194,12 +195,13 @@ p{
 
 #content{
 	position: relative;
-	float: left;
+	float: right;
 	width: 542px;
 	height: auto;
-	padding: 0px 5px 0px 10px;
+	padding: 0px;
 	margin: 0px;
 	text-align: left;
+	border: 0px solid #f00;	
 
 }
 
@@ -208,6 +210,8 @@ p{
 	 list-style-type: none;
 	margin: 0px;
 	padding: 2px;
+	color: #06c; /* Change color to blue */
+	font-size: 9pt; /* Adjust font size */
 
 }
 
@@ -252,44 +256,63 @@ padding-left: 14px;
 	height: auto;
 	}
 
-.smallbox{
+/* old footer formatting
+#footer {
 	position: relative;
 	float: left;
-	width: 265px;
+	width: 540px;
 	height: auto;
-	margin-bottom: 10px;
 	
-	}
-	
-.smallbox li{
-	color: #06c;
-	}
-	
-.smallbox ul li:before {
-	content: "\00BB \0020";
-	}
-	
-span{
-	position: relative;
-	float: left;
-	width: 200px;
-	}
-	
-#footer{
-	position: relative;
-	float: left;
-	width: 800px;
-	height: auto;
+	height: 20px;
 	color: #999;
 	text-align: center;
-	margin: 16px 0px 3px 0px;
+	margin: 0px 0px 3px 0px;
 	font-size: 12px;
+}*/
+
+/* tried to change the footer formatting */
+#footer {
+    position: absolute; /* Change to absolute positioning */
+    left: 50%; /* Move the left edge of the footer to the center of the page */
+    transform: translateX(-50%); /* Translate the footer back by half of its width to center it */
+    bottom: 0; /* Position it at the bottom of the page */
+    width: 540px; /* Adjust the width if needed */
+    margin-left: auto; /* Reset left margin */
+    margin-right: auto; /* Reset right margin */
 }
 
 #footer a{
-	color: #36c;
+	color: #fff;
 	}
 	
+ #footer ul
+{
+	padding-top: 11px;
+	text-align: center;
+	margin: 0;
+	color: #999;
+	font-family: arial, helvetica, sans-serif;
+	line-height: 17px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#footer ul li { display: inline; }
+
+#footer ul li a{
+	
+	color: #C64521;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 6px;
+	font-size: 12px;
+	font-variant: small-caps;
+}
+
+#footer ul li a:hover{
+	color: #c33;
+	text-decoration: underline;
+}
 
 img.logo{
 	float: right;
@@ -320,6 +343,22 @@ span.cen {
 		float: left;
 		}
 
+
+#kittiff{
+	position: relative;
+	float: left;
+	
+	text-align: center;
+	width: 250px;
+	height: auto;
+	font-size: 11px;
+	}
+	
+#kittiff a{
+	color: #fff;
+		text-decoration: none;
+
+	}
 
 -->
 </style>
