@@ -272,22 +272,34 @@ padding-left: 14px;
 
 /* tried to change the footer formatting */
 #footer {
-    position: fixed; /* Change to fixed positioning */
+    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%; /* Occupy full width of the viewport */
-    background-color: #fff; /* Example background color */
-    color: #999; /* Example text color */
-    text-align: center; /* Center-align text */
-    font-size: 12px; /* Adjust font size */
-    padding: 10px; /* Add padding for spacing */
-	margin: 0px 0px 3px 0px; /* Copy from above */
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
+#footer p {
+    margin: 0; /* Remove default margin */
+    color: #999; /* Gray color for the first line */
+}
 
+#footer a {
+    color: #06c; /* Blue color for links */
+    text-decoration: none; /* Remove default underline */
+}
+
+#footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/*
 #footer a{
 	color: #fff;
 	}
+	*/
 	
  #footer ul
 {
