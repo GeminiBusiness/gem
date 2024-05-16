@@ -73,6 +73,7 @@ p{
 	text-align: right;
 }
 
+/*
 #small-line2 p{
 	font-size: 10px;
 	color: #999;
@@ -80,8 +81,9 @@ p{
 }
 
 #small-line2 a {
-	color: #06c; /* blue for the link */
+	color: #06c;
 }
+*/
 
 #container {
 	position: relative;
