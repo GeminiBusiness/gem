@@ -10,7 +10,7 @@ TODO:<br>
 -- contact us form in JS (UPDATE: no contact form, fix page)<br>
 ~~-- remove .php files from GitHub directory (or stash away in unused)~~ <br>
 ~~-- update php links to html on every page~~ <br>
--- move footer<br>
+~~-- move footer~~<br>
 ~~-- remove kittiff references~~<br>
 -- update to make it look snazzy<br>
 ~~-- formatting on about page and linc and cobol page~~ <br>
