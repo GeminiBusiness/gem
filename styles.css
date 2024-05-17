@@ -87,6 +87,11 @@ body {
     width: 50%;
 }
 
+.hero-image-test {
+    width: 25%;
+    height: 25%;
+}
+
 .hero-text {
     width: 45%;
 }
