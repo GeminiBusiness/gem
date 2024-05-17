@@ -147,6 +147,6 @@ body {
 }
 
 /* solution-item Styles */
-.solution-item p {
+.solution-item {
     margin-bottom: 8px;
 }
