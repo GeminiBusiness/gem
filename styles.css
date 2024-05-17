@@ -121,31 +121,17 @@ body {
     color: #fff;
 }
 
-/*.unisys-content {
-    display: flex;
-}*/
-
-/*.hero-text {
-    width: 50%; /* Adjust as needed 
-}*/
-
-/*.hero-image-container {
-    width: 50%; /* Adjust as needed 
-    text-align: right;
-}*/
-
 .unisys-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 70% 30%; /* Adjust as needed */
+    align-items: start;
 }
 
 .hero-text {
-    width: 70%; /* Adjust as needed */
+    width: 100%; /* Allow text to take full width */
 }
 
 .hero-image-container {
-    width: 30%; /* Adjust as needed */
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
