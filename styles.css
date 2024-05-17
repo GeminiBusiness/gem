@@ -120,24 +120,3 @@ body {
 .footer-powered-by a {
     color: #fff;
 }
-
-.unisys-content {
-    display: grid;
-    grid-template-columns: 70% 30%; /* Adjust as needed */
-    align-items: start;
-}
-
-.hero-text {
-    width: 100%; /* Allow text to take full width */
-}
-
-.hero-image-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-
-.unisys-image {
-    max-width: 100%; /* Ensure image doesn't exceed its container */
-    height: auto;
-}
