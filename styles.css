@@ -120,3 +120,25 @@ body {
 .footer-powered-by a {
     color: #fff;
 }
+
+.unisys-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 60%; /* Adjust as needed */
+}
+
+.hero-image-container {
+    width: 35%; /* Adjust as needed */
+}
+
+.unisys-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    display: block; /* Ensures the image doesn't have extra spacing */
+    margin-left: auto;
+    margin-right: auto;
+}
