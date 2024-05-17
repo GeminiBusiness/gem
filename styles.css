@@ -80,7 +80,7 @@ body {
 .hero-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
 
 .hero-image {
@@ -98,7 +98,7 @@ body {
 
 .hero-title {
     font-size: 28px;
-    margin-top: 10px;
+    margin-top: 18px;
 }
 
 .benefits-list {
