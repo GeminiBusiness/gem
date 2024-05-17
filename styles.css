@@ -139,9 +139,9 @@ body {
     color: #333;
 }
 
-.content p.small-text {
-    font-size: 12px;
-    color: #999;
+.small-text {
+    font-size: 12px !important;
+    color: #999 !important;
 }
 
 .content-image {
