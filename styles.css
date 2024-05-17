@@ -138,8 +138,8 @@ body {
     color: #333;
 }
 
-.small-text {
-    font-size: 12px;
+.content .small-text {
+    font-size: 12px !important;
     color: #999;
 }
 
@@ -149,4 +149,3 @@ body {
     display: block;
     margin: 20px 0;
 }
-
