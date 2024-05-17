@@ -134,11 +134,19 @@ body {
     text-align: right;
 }
 
-.unisys-image {
-    width: 80%; /* Adjust as needed */
-    height: auto;
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    display: block; /* Ensures the image doesn't have extra spacing */
-    margin-left: auto;
+.unisys-content {
+    display: grid;
+    grid-template-columns: 60% 35%; /* Adjust as needed */
+    grid-gap: 20px; /* Adjust spacing between text and image */
+    align-items: start; /* Align items at the start of the cross axis */
 }
 
+.hero-image-container {
+    display: flex;
+    justify-content: flex-end; /* Align image to the end of its container */
+}
+
+.unisys-image {
+    max-width: 100%;
+    height: auto;
+}
