@@ -139,14 +139,14 @@ body {
     color: #333;
 }
 
-.caption {
-    font-size: 12px !important;
-    color: #999 !important;
-}
-
 .content-image {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 20px 0;
+}
+
+/* solution-item Styles */
+.solution-item p {
+    margin-bottom: 8px;
 }
