@@ -125,9 +125,9 @@ body {
     display: flex;
 }*/
 
-.hero-text {
-    width: 50%; /* Adjust as needed */
-}
+/*.hero-text {
+    width: 50%; /* Adjust as needed 
+}*/
 
 /*.hero-image-container {
     width: 50%; /* Adjust as needed 
@@ -135,18 +135,23 @@ body {
 }*/
 
 .unisys-content {
-    display: grid;
-    grid-template-columns: 60% 35%; /* Adjust as needed */
-    grid-gap: 20px; /* Adjust spacing between text and image */
-    align-items: start; /* Align items at the start of the cross axis */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-text {
+    width: 70%; /* Adjust as needed */
 }
 
 .hero-image-container {
+    width: 30%; /* Adjust as needed */
     display: flex;
-    justify-content: flex-end; /* Align image to the end of its container */
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .unisys-image {
-    max-width: 100%;
+    max-width: 100%; /* Ensure image doesn't exceed its container */
     height: auto;
 }
