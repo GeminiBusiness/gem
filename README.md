@@ -12,7 +12,7 @@ TODO:<br>
 ~~-- update php links to html on every page~~ <br>
 ~~-- move footer~~<br>
 ~~-- remove kittiff references~~<br>
--- update to make it look snazzy<br>
+~~-- update to make it look snazzy~~<br>
 ~~-- formatting on about page and linc and cobol page~~ <br>
 ~~-- simplify header/footer code?~~ <br>
 ~~-- use VS code or something and use Git for Windows to commit changes~~<br>
