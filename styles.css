@@ -80,11 +80,16 @@ body {
 .hero-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
 
 .hero-image {
     width: 50%;
+}
+
+.hero-image-test {
+    width: 25%;
+    height: 25%;
 }
 
 .hero-text {
@@ -93,7 +98,7 @@ body {
 
 .hero-title {
     font-size: 28px;
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .benefits-list {
@@ -119,4 +124,34 @@ body {
 
 .footer-powered-by a {
     color: #fff;
+}
+
+/* Additions to styles.css for filevision.html */
+
+/* Content Section Styles */
+.content {
+    padding: 50px 0;
+}
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.content-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* solution-item Styles */
+.solution-item {
+    margin-bottom: 20px;
 }

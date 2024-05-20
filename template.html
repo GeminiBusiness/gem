@@ -1,13 +1,14 @@
-<!--- test index.html --->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gemini Business Systems</title>
+    <title>About Gemini Business Systems</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<!-- same basic body for every page -->
 <body>
+    <!-- same header for every page -->
     <header class="header">
         <div class="container">
             <h1 class="logo">Gemini Business Systems</h1>
@@ -37,24 +38,31 @@
         </div>
     </header>
 
+    <!-- different content per page, but with consistent "hero" styling -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <img src="images/laptop.gif" alt="Laptop Image" class="hero-image">
                 <div class="hero-text">
-                    <p class="hero-description">Gemini Business System is a technology-based computer consulting company, providing strategy, implementation, and customized solutions to local businesses and global organizations.</p>
-                    <h2 class="hero-title">How your company can benefit from our services:</h2>
-                    <ul class="benefits-list">
-                        <li>Systems development, design, and support by our experienced company</li>
-                        <li>Protection of your business information and guard against data loss</li>
-                        <li>Keep your business up and running with a reliable network</li>
-                        <li>Share resources and reduce costs</li>
-                    </ul>
+                    <h2 class="hero-title">Title of page</h2>
+                    <p class="hero-description">
+                        Whatever is below the title
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- content differs per page -->
+    <section class="about-content">
+        <div class="container">
+            <h2 class="section-title">Text</h2>
+            <p>
+                Text here
+            </p>
+
+    </section>
+
+    <!-- same footer per page -->
     <footer class="footer">
         <div class="container">
             <p class="footer-text">&copy; 2024 Gemini Business Systems, Inc. | Phone: 317-848-1937</p>
@@ -62,7 +70,7 @@
         </div>
     </footer>
 
+    <!-- script.js just in case (no JS used as of yet)-->
     <script src="script.js"></script>
 </body>
 </html>
-
