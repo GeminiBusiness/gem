@@ -1,7 +1,7 @@
 # gem
 gem test website
 
-<https://aam33.github.io/gem/>
+<https://www.geminibusiness.com/>
 
 TODO:<br>
 ~~-- see where hyperlinks go (clicking on them downloads .php files)~~ <br>
