@@ -85,6 +85,8 @@ body {
 
 .hero-image {
     width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 .hero-image-test {
@@ -154,4 +156,13 @@ body {
 /* solution-item Styles */
 .solution-item {
     margin-bottom: 20px;
+}
+
+/* Responsive Image Styles */
+
+@media only screen and (max-width: 600px) {
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
 }
