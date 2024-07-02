@@ -80,20 +80,20 @@ body {
 .hero-content {
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .hero-image {
-    width: 50%;
-}
-
-.hero-image-test {
-    width: 25%;
-    height: 25%;
+    flex: 1 1 50%;
+    max-width: 50%;
+    height: auto;
+    order: 2; /* Default order for desktop */
 }
 
 .hero-text {
-    width: 45%;
+    flex: 1 1 45%;
+    order: 1; /* Default order for desktop */
 }
 
 .hero-title {
@@ -154,4 +154,21 @@ body {
 /* solution-item Styles */
 .solution-item {
     margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-image {
+        order: 2; /* Move the image to the bottom on mobile */
+        max-width: 100%; /* Ensure the image takes full width on mobile */
+    }
+    .hero-text {
+        order: 1; /* Ensure the text is on top on mobile */
+        width: 100%; /* Ensure the text takes full width on mobile */
+        text-align: center; /* Center the text on mobile */
+    }
 }
