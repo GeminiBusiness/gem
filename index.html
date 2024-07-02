@@ -55,25 +55,6 @@
     </footer>
 
     <script src="script.js"></script>
-
-    <script>
-        function moveHeroImage() {
-            const heroContent = document.querySelector('.hero-content');
-            const heroImage = document.querySelector('.hero-image');
-            const heroText = document.querySelector('.hero-text');
-    
-            if (window.innerWidth <= 600) {
-                // Move the image to the bottom
-                heroContent.appendChild(heroImage);
-            } else {
-                // Move the image back to the original position
-                heroContent.insertBefore(heroImage, heroText);
-            }
-        }
-    
-        window.addEventListener('resize', moveHeroImage);
-        window.addEventListener('load', moveHeroImage);
-    </script>
     
 </body>
 </html>
